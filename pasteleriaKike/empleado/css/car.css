@@ -1,0 +1,45 @@
+#Total{
+    margin-top: 20px;
+    text-align: end;
+    margin-left: 20px;
+   
+}
+
+.plusP{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+
+.plus{
+    margin: 0 20px;
+    font-family: var(--fuenteHeading);
+    background-color: var(--marron);
+    color: var(--blanco);
+    width: 250px;
+    height: 50px;
+    padding:5px;
+    font-size: 20px;
+    border:none;
+    margin-top: 50px;
+    transition: all 0.3s linear;
+    
+}
+
+.plusA, .plusB{
+    color: white;
+
+}
+
+.plusA a:hover, .plusB a:hover{
+    color: white;
+}
+
+.plusP button:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+
+}
